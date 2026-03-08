@@ -70,7 +70,7 @@ function ProfilePage() {
          jsxs("div", { className: `space-y-8 ${isVisible ? "animate-slide-in-left" : "opacity-0"}`, children: [
            jsxs("div", { className: "space-y-4", children: [
              jsx(Badge, { variant: "outline", className: "text-emerald-600 border-emerald-200", children: "Available for new opportunities" }),
-             jsx("h1", { className: "font-serif text-5xl lg:text-6xl font-bold text-slate-900 leading-tight", children: "Welcome to Parth Inamdar's Profile" }),
+             jsx("h1", { className: "font-serif text-5xl lg:text-6xl font-bold text-slate-900 leading-tight", children: "Welcome to 12-34u's Profile" }),
              jsx("p", { className: "text-xl text-slate-600 font-sans leading-relaxed", children: "Your Journey, Your Achievements - Discover my passion for creative design and development, and how I strive to make an impact through innovative solutions." })
           ] }),
            jsxs("div", { className: "flex items-center gap-4 text-slate-600", children: [
@@ -120,10 +120,10 @@ function ProfilePage() {
            jsxs("div", { className: "relative bg-white p-8 rounded-2xl shadow-xl", children: [
              jsxs(Avatar, { className: "w-48 h-48 mx-auto mb-6", children: [
                jsx(AvatarImage, { src: "/portfolio_image.jpg" }),
-               jsx(AvatarFallback, { className: "text-4xl font-serif", children: "PI" })
+               jsx(AvatarFallback, { className: "text-4xl font-serif", children: "34" })
             ] }),
              jsxs("div", { className: "text-center space-y-2", children: [
-               jsx("h3", { className: "font-serif text-2xl font-bold text-slate-900", children: "Parth Inamdar" }),
+             jsx("h3", { className: "font-serif text-2xl font-bold text-slate-900", children: "12-34u" }),
                jsx("p", { className: "text-emerald-600 font-medium", children: "Creative Designer & Developer" }),
                jsx("div", { className: "flex justify-center gap-1 mt-4", children: [1, 2, 3, 4, 5].map((star) =>  jsx(Star, { className: "w-4 h-4 fill-yellow-400 text-yellow-400" }, star)) }),
                jsx("p", { className: "text-sm text-slate-500", children: "5.0 rating from 50+ clients" })
@@ -438,7 +438,7 @@ function ProfilePage() {
         )
       ] })
     ] }) }),
-     jsx("footer", { className: "py-8 px-6 bg-slate-900 text-white", children:  jsx("div", { className: "max-w-6xl mx-auto text-center", children:  jsx("p", { className: "text-slate-400", children: "\xA9 2024 Parth Inamdar. Crafted with passion and attention to detail." }) }) })
+     jsx("footer", { className: "py-8 px-6 bg-slate-900 text-white", children:  jsx("div", { className: "max-w-6xl mx-auto text-center", children:  jsx("p", { className: "text-slate-400", children: "\xA9 2024 12-34u. Crafted with passion and attention to detail." }) }) })
   ] });
 }
 export {
